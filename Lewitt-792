@@ -1,0 +1,23 @@
+function setup() { 
+  createCanvas(700, 400);
+} 
+
+function draw() { 
+  background("black");
+	strokeWeight(10);
+	stroke("white");
+	
+	
+line(0,30,200,30);
+line(400,0,400,400);
+line(200,0,200,400);
+line(650,0,650,400);
+
+line(0,300,200,300);
+line(200,50,400,50);
+line(400,250,200,250);
+line(650,350,400,350);
+	
+
+}
+
