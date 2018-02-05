@@ -1,0 +1,29 @@
+function setup() { 
+  createCanvas(400, 400);
+} 
+
+var diameter = 10;
+
+function draw() { 
+  if (mouseIsPressed) {
+    ellipse(mouseX, mouseY, diameter);
+  }
+}
+
+function keyPressed() {
+  print(key);
+  if (key == 'Y') {
+    fill(255, 204, 0);
+  } else if (key == 'P') {
+    fill("pink");
+  } else if (key == 'B') {
+    fill("lightBlue"); 
+  } else if (key == 'G') {
+    fill("lightGreen");
+	} else if (key == 'M') {
+    fill("purple");
+	} else if (key == 'T') {
+    fill("tan");
+  }
+}
+
