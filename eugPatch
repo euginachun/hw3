@@ -1,0 +1,45 @@
+function eugPatch(x, y) {
+  noFill();
+  stroke(0,153,68);
+  rect(x, y, 100, 100);
+  
+  
+  strokeWeight(3);
+  fill("pink")
+  rect(x, y-10, 100, 100);
+  fill("lightGreen");
+  rect(x+10, y, 80, 80);
+  noFill();
+  
+  ellipse(x+19, y+10, 35, 35);
+  ellipse(x+82, y+10, 35, 35);
+  ellipse(x+19, y+70, 35, 35);
+  ellipse(x+82, y+70, 35, 35);
+ 
+ fill("lightGreen")
+
+  ellipse(x+19, y+10, 15, 15);
+  ellipse(x+82, y+10, 15, 15);
+  ellipse(x+19, y+70, 15, 15);
+  ellipse(x+82, y+70, 15, 15);
+  
+  fill(216, 0, 0);
+  noStroke();
+ 	rect(x+34, y+24, 32, 32);
+  
+  
+  fill(0,153,68);
+  stroke("pink");
+ 	rect(x+42, y+33, 15, 15);
+  
+  
+
+
+
+}
+
+//background(255);
+eugPatch(50, 20); // draw patch at upper-left
+
+//background(255);
+eugPatch(width-100, height-100); // draw patch at lower-right
